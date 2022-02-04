@@ -1,0 +1,68 @@
+// card content
+
+.card {
+  width: 1440px;
+  max-width: 90%;
+  background-color: $card-color;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 15px;
+  margin: 20% 0;
+}
+
+// image content
+
+.card-img {
+  max-width: 100%;
+  background-color: $soft-violet;
+  border-radius: 15px 15px 0 0;
+  img {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+// text content
+
+.card-text {
+  // border: 2px solid whitesmoke;
+  // width: 50%;
+  margin-top: 5%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    font-size: 0.9rem;
+    text-align: center;
+
+    p {
+      padding: 2em 0;
+      // padding-bottom: 3em;
+      line-height: 1.5rem;
+      color: $stat-color;
+    }
+
+    span {
+      color: $soft-violet;
+    }
+  }
+
+  .statistics {
+    .stat-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .stat-content {
+      line-height: 1.7rem;
+      color: $stat-color;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      padding-bottom: 2em;
+    }
+  }
+}

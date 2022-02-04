@@ -1,0 +1,37 @@
+@media screen and (min-width: 980px) {
+  .card {
+    width: 1440px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+
+    .card-text {
+      width: 50%;
+      .text {
+        font-size: calc(0.5rem + 0.7vw);
+        text-align: left;
+        p {
+          padding-bottom: 5em;
+          line-height: 1.5em;
+          font-size: 0.7rem;
+          font-size: calc(0.5rem + 0.5vw);
+        }
+      }
+
+      .statistics {
+        :last-child {
+          padding-right: 4em;
+        }
+        .stat-title {
+          // font-size: 1.4rem;
+          font-size: calc(1rem + 0.7vw);
+        }
+      }
+    }
+
+    .card-img {
+      width: 50%;
+      border-radius: 0 15px 15px 0;
+    }
+  }
+}

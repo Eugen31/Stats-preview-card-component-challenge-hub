@@ -1,0 +1,27 @@
+@media screen and (min-width: 699px) {
+  .card-text {
+    margin: 0 auto;
+    max-width: 60%;
+
+    .text {
+      font-size: 1.5rem;
+
+      p {
+        line-height: 2rem;
+      }
+    }
+
+    .statistics {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .stat-title {
+        font-size: 2rem;
+      }
+      .stat-content {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

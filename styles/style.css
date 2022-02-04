@@ -1,0 +1,162 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #090b1a;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.card {
+  width: 1440px;
+  max-width: 90%;
+  background-color: #1b1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  border-radius: 15px;
+  margin: 20% 0;
+}
+
+.card-img {
+  max-width: 100%;
+  background-color: #aa5cdb;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.card-text {
+  margin-top: 5%;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-text .text {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.card-text .text p {
+  padding: 2em 0;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card-text .text span {
+  color: #aa5cdb;
+}
+
+.card-text .statistics .stat-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.card-text .statistics .stat-content {
+  line-height: 1.7rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-bottom: 2em;
+}
+
+@media screen and (min-width: 699px) {
+  .card-text {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+  .card-text .text {
+    font-size: 1.5rem;
+  }
+  .card-text .text p {
+    line-height: 2rem;
+  }
+  .card-text .statistics {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .card-text .statistics .stat-title {
+    font-size: 2rem;
+  }
+  .card-text .statistics .stat-content {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .card {
+    width: 1440px;
+    max-width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card .card-text {
+    width: 50%;
+  }
+  .card .card-text .text {
+    font-size: calc(0.5rem + 0.7vw);
+    text-align: left;
+  }
+  .card .card-text .text p {
+    padding-bottom: 5em;
+    line-height: 1.5em;
+    font-size: 0.7rem;
+    font-size: calc(0.5rem + 0.5vw);
+  }
+  .card .card-text .statistics :last-child {
+    padding-right: 4em;
+  }
+  .card .card-text .statistics .stat-title {
+    font-size: calc(1rem + 0.7vw);
+  }
+  .card .card-img {
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
