@@ -1,5 +1,6 @@
-// card content
+// start with mobile design first
 
+// card content
 .card {
   width: 1440px;
   max-width: 90%;
@@ -11,7 +12,6 @@
 }
 
 // image content
-
 .card-img {
   max-width: 100%;
   background-color: $soft-violet;
@@ -24,28 +24,21 @@
 }
 
 // text content
-
 .card-text {
-  // border: 2px solid whitesmoke;
-  // width: 50%;
   margin-top: 5%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   .text {
     font-size: 0.9rem;
     text-align: center;
-
     p {
       padding: 2em 0;
-      // padding-bottom: 3em;
       line-height: 1.5rem;
       color: $stat-color;
     }
-
     span {
       color: $soft-violet;
     }
@@ -56,7 +49,6 @@
       font-size: 1.3rem;
       font-weight: 700;
     }
-
     .stat-content {
       line-height: 1.7rem;
       color: $stat-color;

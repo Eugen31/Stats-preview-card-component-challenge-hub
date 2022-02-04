@@ -35,5 +35,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [YouTube](https://github.com/Eugen31/Stats-preview-card-component-challenge-hub)
+- Website - [Github](https://github.com/Eugen31/Stats-preview-card-component-challenge-hub)
 - Frontend Mentor - [link](https://www.frontendmentor.io/profile/Eugen31)
